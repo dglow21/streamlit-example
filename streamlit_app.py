@@ -1,4 +1,5 @@
 # First
+!pip install openai
 import openai import streamlit as st
 with st.sidebar:
     openai_api_key = st.text_input("OpenAI API Key", key="chatbot_api_key", type="password")
